@@ -1,6 +1,6 @@
 #7th_ex
 
-def generate_unrooted_trees(current_tree, new_taxa):
+def gen_unrooted_trees(current_tree, new_taxa):
     new_trees = []
     for i in range(1, len(current_tree) - 2):
         j = -1
